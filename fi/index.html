@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../content/styles/style.css">
 </head>
 <body>
-    <nav>
+    <nav class="show-top">
         <div class="pos-top pos-right mrg-i-25 mrg-b-15 nav-ui">
             <a href="#landing" class="nav-link mob-hidden"><img src="../content/rel/media/icons/house32.png" alt="Home" class="inverted-icon"></a>
             <a href="#info" class="nav-link mob-hidden"><img src="../content/rel/media/icons/user32.png" alt="Info" class="inverted-icon"></a>
@@ -30,12 +30,12 @@
         <div class="hero-bg">
             <div class="max-1200px h-100p mrg-i-5vw">
                 <div class="hero-align">
-                    <div>
+                    <div class="hero-texts">
                         <h1 class="text-primary">Jere Tolonen</h1>
                         <p class="text-secondary">Ohjelmistokehittäjä</p>
                     </div>
                     <div>
-                        <h3 class="mob-hidden">IMG</h3>
+                        <img src="../content/rel/media/images/placeholder.png" alt="portrait" class="mob-hidden">
                     </div>
                 </div>
             </div>
@@ -47,12 +47,12 @@
                     Tietoja
                 </h2>
                 <div class="fl-row gap-25 mob-col">
-                    <div class="m-cont brdrad-15">
+                    <div class="m-cont brdrad-5">
                         <h1 class="text-primary">Olen 17 vuotias ohjelmistokehittäjä-opiskelija Kuopiosta</h1>
                         <p class="info-paragraph">Opiskelen Savon ammattiopistossa ohjelmistokehittäjäksi, jossa valmistun vuonna 2027. Ohjelmoin pääsääntöisesti C#:lla, Lua:lla sekä Php:lla.</p>
                         <p class="info-paragraph">Vapaa-ajallani olen aktiivinen valokuvaamaan sekä suunnittelen omiin sovelluksiini ja peleihin käyttöliittymiä. Olen myös hyvä 3D-mallinnuksessa Blender-sovelluksessa, johon on kertynyt muutama tuhat tuntia</p>
                     </div>
-                    <div class="m-cont fl-col stat-align brdrad-15">
+                    <div class="m-cont fl-col stat-align brdrad-5">
                         <div class="h-50p">
                             <div><h2 class="stat-num brdrad-15 text-coffee-light">10+</h2></div>
                             <br>
@@ -82,7 +82,7 @@
                 </h2>
                 <div class="mob-col col-gap-15" id="project-container">
                     <!--Projects here-->
-                    <div class="project-cont brdrad-15">
+                    <div class="project-cont brdrad-5">
                         <div class="project-img-cont">
                             <img src="../content/rel/media/images/placeholder.png" alt="" class="project-img">
                             <div class="mob-project-text">
@@ -99,21 +99,20 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="project-cont brdrad-15">
+                    <div class="project-cont brdrad-5" onclick="location.href='projects/'"; style="cursor:pointer;">
                         <div class="mrg-i-25 mrg-b-25 project-text">
-                            <h1 class="text-primary">Projekti 2</h1>
+                            <h1 class="text-primary">Lisää Projekteja</h1>
                             <div class="fl-row">
                                 <div>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <p>Lue lisää projekteistani painamalla</p>
                                 </div>
                             </div>
                         </div>
                         <div class="project-img-cont">
                             <img src="../content/rel/media/images/placeholder.png" alt="" class="project-img">
                             <div class="mob-project-text">
-                                <h1 class="text-primary">Projekti 2</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <h1 class="text-primary">Lisää Projekteja</h1>
+                                <p>Lue lisää projekteistani painamalla</p>
                             </div>
                         </div>
                     </div>
@@ -128,8 +127,15 @@
                     <h2 class="text-secondary">
                         Ota Yhteyttä
                     </h2>
-                    <div class="l-cont brdrad-15">
-
+                    <div class="l-cont brdrad-5">
+                        <form id="contactForm" onsubmit="sendMail(event)">
+                            <input type="text" id="name" placeholder="Nimi*" required>
+                            <input type="email" id="email" placeholder="Sposti*" required>
+                            <textarea id="message" placeholder="Aihe*" rows="5" required></textarea>
+                            <button type="submit" id="send">Lähetä</button>
+                            <p class="disclaimer">Lähetä painike avaa oletus sähköpostisovelluksen täytetyillä tiedoilla</p>
+                        </form>
+                        <script src="../content/rel/script/js/mail.js"></script>
                     </div>
                 </div>
             </div>
@@ -141,16 +147,16 @@
                     </h2>
                     <div class="fl-row gap-25 h-scroll">
                         <div class="link-cont brdrad-15">
-                            <a href="https://github.com/VisualPlate">GitHub</a>
+                            <a href="https://github.com/VisualPlate" target="_blank" class="text-secondary">GitHub</a>
                         </div>
                         <div class="link-cont brdrad-15">
-                            <a href="https://www.linkedin.com/in/jere-tolonen/">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/jere-tolonen/" target="_blank" class="text-secondary">LinkedIn</a>
                         </div>
                         <div class="link-cont brdrad-15">
-                            <a href="https://www.instagram.com/jere.tolonen/">Instagram</a>
+                            <a href="https://www.instagram.com/jere.tolonen/" target="_blank" class="text-secondary">Instagram</a>
                         </div>
                         <div class="link-cont brdrad-15">
-                            <a href="https://500px.com/p/visualplate">500px</a>
+                            <a href="https://500px.com/p/visualplate" target="_blank" class="text-secondary">500px</a>
                         </div>
                     </div>
                 </div>

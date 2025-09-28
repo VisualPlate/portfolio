@@ -10,6 +10,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    z-index: 1;
+}
+.show-top {
+    z-index: 10;
+}
 .lan-ui{
     box-shadow: -1px 1px 2px 2px var(--shadow-gray);
 }
@@ -30,10 +36,16 @@ body {
     background: linear-gradient(to top, var(--color-accent), #ffffff00);
     border-bottom: var(--coffee) solid 2px;
 }
+.bg-secondary {
+    background-color: var(--color-background-secondary);
+}
 .hero-bg {
     background: linear-gradient(to bottom, var(--color-background), var(--color-background-secondary));
     background-size: 50vw;
     height: 700px;
+}
+.hero-header {
+    font-size: 48px;
 }
 .hero-align {
     display: flex;
@@ -41,10 +53,16 @@ body {
     align-items: center;
     height: 100%;
 }
+.hero-texts h1, .hero-texts p {
+    white-space: nowrap;
+}
 .hero-align div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.hero-align div img {
+    width: 100%;
 }
 .info-bg {
     background-color: var(--color-background-secondary);
@@ -70,6 +88,7 @@ body {
     column-gap: 15px;
 }
 .project-img {
+    z-index: 1;
     display: flex;
     justify-self: center;
     align-self: center;
@@ -126,6 +145,48 @@ body {
 #contact,#more {
     width: 100%;
 }
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    min-height: 175px;
+    justify-content: center;
+}
+#name, #email, #message {
+    margin-block: 5px;
+    border-radius: 5px;
+    background-color: #3c3f49;
+    border: #767676 solid 1px;
+    color: #767676;
+}
+#name:focus, #email:focus, #message:focus {
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+    border: #212121 solid 2px;
+    color: #212121;
+}
+#name, #email {
+    font-size: 1rem;
+}
+#message {
+    font-size: 0.6rem;
+    resize: none;
+}
+#send {
+    margin-block: 5px;
+    background-color: var(--color-background);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-text-link);
+    font-size: 1.1rem;
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+    background-color: #3c3f49;
+}
+#send:hover {
+    transition: all 0.2s linear;
+    background-color: var(--bg-container);
+}
+.disclaimer {
+    font-size: 0.75rem;
+}
 .line {
     height: 5px;
     width: 20%;
@@ -163,6 +224,9 @@ body {
         transition: all 0.4s linear;
         filter: blur(5px);
     }
+    .hero-header {
+        font-size: 24px;
+    }
 }
 @media (max-width:900px) {
     .mob-col {
@@ -174,6 +238,10 @@ body {
     }
     .con-row {
         flex-direction: column;
+    }
+    
+    .hero-header {
+        font-size: 32px;
     }
 }
 @media (max-width:1300px) {
