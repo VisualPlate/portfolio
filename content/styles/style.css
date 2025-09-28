@@ -106,6 +106,26 @@ body {
     position: relative;
     display: inline-block;
 }
+.con-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-cont {
+    background-color: var(--bg-container);
+    padding: 15px;
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+}
+.link-cont {
+    background-color: var(--bg-container);
+    margin-block: 15px;
+    padding: 15px;
+    box-shadow: -1px 1px 2px 2px var(--shadow-gray);
+    width: 100%;
+}
+#contact,#more {
+    width: 100%;
+}
 .line {
     height: 5px;
     width: 20%;
@@ -115,6 +135,11 @@ body {
 }
 .coffee-light {
     background-color: var(--coffee-light);
+}    
+.h-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 @media (max-width:600px) {
     .mob-hidden {
@@ -146,6 +171,9 @@ body {
     }
     .m-cont {
         width: 100%;
+    }
+    .con-row {
+        flex-direction: column;
     }
 }
 @media (max-width:1300px) {
