@@ -7,6 +7,9 @@
   --color-accent: #635247;
   --color-text-link: #dadada;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -62,7 +65,11 @@ main {
     align-items: center;
 }
 .hero-align div img {
-    width: 100%;
+    width: 70%;
+    border: #767676 dashed 2px;
+    border-top: #4b4d58 solid 8px;
+    border-left: #3c3f49 solid 8px;
+    box-shadow: -1px 1px 2px 2px var(--bg-body);
 }
 .info-bg {
     background-color: var(--color-background-secondary);
