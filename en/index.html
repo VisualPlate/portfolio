@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
 
-    <!-- Framework base V1-->
+    <!-- Framework base -->
     <link rel="stylesheet" href="https://visualplate.github.io/vpcssFramework/framework/V1/vpcss.css">
 
     <!-- Theme (Default) -->
@@ -27,8 +27,150 @@
         </div>
     </nav>
     <main>
-        <br><br><br><br><br>
-        <h1>Sorry, this page is under construction</h1>
+        <div class="hero-bg" id="landing">
+            <div class="max-1200px h-100p mrg-i-5vw">
+                <div class="hero-align">
+                    <div class="hero-texts">
+                        <h1 class="text-primary">Jere Tolonen</h1>
+                        <p class="text-secondary">Software Developer</p>
+                    </div>
+                    <div>
+                        <img src="../content/rel/media/images/portrait512.jpg" alt="portrait" class="mob-hidden">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-bg" id="info">
+            <div class="mrg-i-5vw max-1200px fl-cent fl-col">
+                <div class="line coffee-light"></div>
+                <h2 class="text-secondary">
+                    Information
+                </h2>
+                <div class="fl-row gap-25 mob-col">
+                    <div class="m-cont brdrad-5">
+                        <h1 class="text-primary">I am an Software Developer student</h1>
+                        <p class="info-paragraph">I study in Savo Vocational College where i will graduate in around 2027. I mostly program in PHP, C# and Lua</p>
+                        <p class="info-paragraph">On my freetime i am active on photography and creating ui desgins to my apps and software. I am also good at 3D-modelling in Blender</p>
+                    </div>
+                    <div class="m-cont fl-col stat-align brdrad-5">
+                        <div class="h-50p">
+                            <div><h2 class="stat-num brdrad-15 text-coffee-light">10+</h2></div>
+                            <br>
+                            <div><h3>Finished Projects</h3></div>
+                            <br>
+                            <div class="line coffee-light"></div>
+                        </div>
+                        <br>
+                        <div class="h-50p">
+                            <div><h2 class="stat-num brdrad-15 text-coffee-light">3+</h2></div>
+                            <br>
+                            <div><h3>Years Of Experience</h3></div>
+                            <br>
+                            <div class="line coffee-light"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="mrg-i-5vw max-1200px fl-cent fl-col">
+                <br>
+                <div class="line coffee-light"></div>
+                <h2 class="text-secondary">
+                    Projektit
+                </h2>
+                <div class="mob-col col-gap-15" id="project-container">
+                    <!--Projects here-->
+                    <div class="project-cont brdrad-5">
+                        <div class="project-img-cont">
+                            <img src="../content/rel/media/images/portfolio.jpg" alt="" class="project-img">
+                            <div class="mob-project-text">
+                                <h1 class="text-primary">WebPortfolio</h1>
+                                <p>The site you're currently looking at</p>
+                            </div>
+                        </div>
+                        <div class="mrg-i-25 mrg-b-25 project-text">
+                            <h1 class="text-primary">WebPortfolio</h1>
+                            <div class="fl-row">
+                                <div>
+                                    <p>The site you're currently looking at. Click the link for more information</p>
+                                    <a href="https://github.com/VisualPlate/portfolio" target="_blank">GitHub Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-cont brdrad-5" onclick="location.href='projects/'"; style="cursor:pointer;">
+                        <div class="mrg-i-25 mrg-b-25 project-text">
+                            <h1 class="text-primary">Open Projects Page</h1>
+                            <div class="fl-row">
+                                <div>
+                                    <p>Click and check out my projects</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-img-cont">
+                            <img src="../content/rel/media/images/itemlist_w.png" alt="" class="project-img">
+                            <div class="mob-project-text">
+                                <h1 class="text-primary">Open Projects Page</h1>
+                                <p>Click and check out my projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="con-row max-1200px mrg-i-5vw gap-25">
+            <div id="contact">
+                <div class="fl-cent fl-col">
+                    <div class="line coffee-light"></div>
+                    <h2 class="text-secondary">
+                        Contact
+                    </h2>
+                    <div class="l-cont brdrad-5">
+                        <form id="contactForm" onsubmit="sendMail(event)">
+                            <input type="text" id="name" placeholder="Name*" required>
+                            <input type="email" id="email" placeholder="Email*" required>
+                            <textarea id="message" placeholder="Context*" rows="5" required></textarea>
+                            <button type="submit" id="send">Send</button>
+                            <p class="disclaimer">Send button will open deafault email app with given info</p>
+                        </form>
+                        <script src="../content/rel/script/js/mail.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div id="more">
+                <div class="fl-cent fl-col">
+                    <div class="line coffee-light"></div>
+                    <h2 class="text-secondary">
+                        More Of Me
+                    </h2>
+                    <div class="fl-row gap-25 h-scroll">
+                        <div class="link-cont brdrad-15">
+                            <a href="https://github.com/VisualPlate" target="_blank" class="text-secondary">GitHub</a>
+                        </div>
+                        <div class="link-cont brdrad-15">
+                            <a href="https://www.linkedin.com/in/jere-tolonen/" target="_blank" class="text-secondary">LinkedIn</a>
+                        </div>
+                        <div class="link-cont brdrad-15">
+                            <a href="https://www.instagram.com/jere.tolonen/" target="_blank" class="text-secondary">Instagram</a>
+                        </div>
+                        <div class="link-cont brdrad-15">
+                            <a href="https://500px.com/p/visualplate" target="_blank" class="text-secondary">500px</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="footer-cont">
+            <div class="max-1200px">
+                <h1>The End</h1>
+                <a href="#landing">Back To Start</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
