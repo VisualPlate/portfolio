@@ -3,27 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
-
-    <!-- Framework base V1-->
-    <link rel="stylesheet" href="https://visualplate.github.io/vpcssFramework/framework/V1/vpcss.css">
-
-    <!-- Theme (Default) -->
-    <link rel="stylesheet" href="https://visualplate.github.io/vpcssFramework/framework/V1/themeOverride/dark.css">
-
-    <link rel="stylesheet" href="content/styles/style.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <title>CV</title>
 </head>
 <body>
-    <nav class="show-top">
-        <div class="pos-top pos-right mrg-i-25 mrg-b-15 nav-ui">
-            <a href="https://github.com/VisualPlate" target="_blank" class="nav-link"><img src="../content/rel/media/icons/github32.png" alt="GitHub" class="inverted-icon"></a>
+    <div class="pos-top pos-right m-50 row gap-25">
+        <a href="#start" class="mob-hidden text-hero-main text-paragraph nav-link">Alkuun</a>
+        <a href="#contact" class="mob-hidden text-hero-main text-paragraph nav-link">Yhteystiedot</a>
+        <a href="https://github.com/VisualPlate" class="text-hero-main text-paragraph nav-link" target="_blank">Github</a>
+    </div>
+    <div class="max-w-1600 grid-rows-1 col-cent h-800" id="start">
+        <div class="grid-rows-2-auto">
+            <div class="col m-bl-100 m-in-25">
+                <p class="text-hero-highlight m-bl-25">Ohjelmointi - Suunnittelu - Toteutus</p>
+                <h1 class="text-hero-main text-paragraph" id="textWrite"></h1>
+                <h1 class="text-hero-main text-hero">Jere Tolonen</h1>
+                <h1 class="text-hero-highlight text-hero">Ohjelmistokehittäjä</h1>
+                <p class="text-secondary m-bl-25">Olen 17 Ohjelmistokeihttäjä Opiskelija Savon Ammattiopistosta. Osaan mm. PHP, JS, CSS ja C# kielet</p>
+            </div>
+            <div class="col m-bl-100 col-cent" id="secondaryCont">
+                
+                <img src="assets/images/portrait.png" alt="portrait" class="mob-hidden portrait">
+            </div>
         </div>
-    </nav>
-    <main>
-        <br><br><br><br><br>
-        <h1>Choose language</h1>
-        <a href="fi/" style="color: rgb(135, 135, 135);"><h2>FI</h2></a>
-        <a href="en/" style="color: rgb(135, 135, 135);"><h2>EN</h2></a>
-    </main>
+    </div>
+    <div class="max-w-1600 grid-rows-1 col-cent h-200">
+        <div class="m-bl-25 m-in-25 row space-between">
+            <div class="col">
+                <h1 class="text-hero-main text-hero">10+</h1>
+                <h1 class="text-hero-main text-paragraph">Valmista projektia</h1>
+            </div>
+            <div class="col">
+                <h1 class="text-hero-main text-hero">3+</h1>
+                <h1 class="text-hero-main text-paragraph">Vuotta kokemusta</h1>
+            </div>
+            <div class="col">
+                <h1 class="text-hero-main text-hero">100%</h1>
+                <h1 class="text-hero-main text-paragraph">Onnistumisia</h1>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-1600 grid-rows-1 col-cent">
+        <div class="grid-rows-2-auto">
+            <div class="col m-bl-100 m-in-25">
+                <h1 class="text-hero-main text-hero mob-text-center">Taitoni, Erityisosaamiseni ja Tavoitteet</h1>
+                <p class="text-secondary m-bl-25 mob-text-center">Olen Taidokas Tyylien Vääntäjä. Osaamiseeni Kuuluu Sovellusten ja Nettisivujen Front- ja Backendin Toteuttamiset. Tavoitteeni on Oppia Jatkuvasti ja Kasvattaa Osaamistani</p>
+                <p class="text-secondary m-bl-25 text-center">JS - CSS - PHP - LUA - C#</p>
+            </div>
+            <div class="col m-bl-100 h-75p col-cent">
+                <div class="m-bl-50">
+                    <h1 class="text-hero-highlight">Hyvät Koodit</h1>
+                    <p>Hyvin Suunnitellut Koodit</p>
+                </div>
+                <div class="item-highlight-container">
+                    <h1 class="text-hero-main">CSS-Taituri</h1>
+                    <p class="text-secondary">CSS-Kielen osaaja</p>
+                </div>
+                <div class="m-bl-50">
+                    <h1 class="text-hero-highlight">Nopeat Suunnittelut</h1>
+                    <p>Sovelluksen Laadukkaat Pohjat Minuuteissa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-1600 grid-rows-1 col-cent">
+        <div class="grid-rows-2-auto">
+            <div></div>
+            <div class="col m-bl-100 m-in-25">
+                <h1 class="text-hero-main text-hero mob-text-center">Tyylikkäimmät ja Parhaimmat Projektini</h1>
+                <p class="text-secondary m-bl-25 mob-text-center">Alhaalla Näet Parhaimmat Projektini Tähän Päivään Mennessä. Niihin Kuuluu Kaikki Vaiheet Suunnittelun ja Toteuttamisen Väliltä</p>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-1600 grid-rows-1 grid-cent">
+        <div class="space-between gap-25 m-in-25 m-bl-100" id="projectContainer">
+            <div class="m-bl-50 highlight-container">
+                <h1 class="text-hero-highlight text-center"><a href="https://github.com/VisualPlate/vpcssFramework" target="_blank">VpCssFramework</a></h1>
+                <p class="text-secondary text-center">CSS:ään Perustuva Framework, Jonka Tavoitteena on Saada Nopeasti Aikaa Containereja</p>
+                <p class="text-center m-bl-10 text-hero-main">CSS</p>
+            </div>
+            <div class="m-bl-50 highlight-container-bgless">
+                <h1 class="text-hero-highlight text-center"><a href="https://github.com/VisualPlate/Bulk-Unzipper" target="_blank">Bulk-Unzipper</a></h1>
+                <p class="text-secondary text-center">C#:lla Tehty Zip-Pakettien Sarjapurku-Ohjelma. Projekti Sai Alkunsa Omista Tarpeista</p>
+                <p class="text-center m-bl-10 text-hero-main">C#</p>
+            </div>
+            <div class="m-bl-50 highlight-container-bgless">
+                <h1 class="text-hero-highlight text-center"><a href="https://github.com/VisualPlate?tab=repositories" target="_blank">Muut Projektini</a></h1>
+                <p class="text-secondary text-center">Jos Haluat Nähdä Muita Muita Julkiseksi Asettamia Projektja, Paina Otsikon Linkistä</p>
+                <p class="text-center m-bl-10 text-hero-main">JS - CSS - PHP - LUA - C#</p>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-1600 grid-rows-1 col-cent" id="contact">
+        <div class="grid-rows-2-auto">
+            <div class="col m-bl-50 m-in-25">
+                <h1 class="text-hero-main text-hero mob-text-center">Yhteystiedot</h1>
+                <p class="text-secondary m-bl-15 mob-text-center">Täältäpä Löytyy Yhteystietoni sekä Muut Kontaktit</p>
+            </div>
+            <div class="col m-bl-50 h-75p col-cent m-in-25">
+            <div class="m-bl-50 highlight-container grid-rows-1 grid-cent">
+                <h1 class="text-hero-highlight w-100p text-center">Jere Tolonen</h1>
+                <div class="row space-between row-cent">
+                    <h1 class="text-hero-highlight text-paragraph">Puh:</h1>
+                    <p>+358 40 168 7440</p>
+                </div>
+                <div class="row space-between row-cent">
+                    <h1 class="text-hero-highlight text-paragraph">Email:</h1>
+                    <p>tolonenjere0@gmail.com</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/writeText.js"></script>
 </body>
 </html>
