@@ -1,7 +1,4 @@
 # 🎨 My Portfolio
 
 ## ✨ About  
-  📦 This project uses my own framework  
-  📦 This is my newest portfolio with new repository 
-  ## ✨ Links
-  📦 visualplate.github.io/portfolio/
+  📦 This is unstable and non-finished version. Please prefer to check the main version
