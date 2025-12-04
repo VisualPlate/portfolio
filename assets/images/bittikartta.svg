@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="bittikartta.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.33698058"
+     inkscape:cx="868.00255"
+     inkscape:cy="547.5093"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#003380;fill-opacity:1;stroke-width:6.42943;stroke-linejoin:bevel"
+       id="rect1"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0"
+       ry="15.653292" />
+    <circle
+       style="fill:#0000aa;stroke-width:2;stroke-linejoin:bevel"
+       id="path1"
+       cx="307.13937"
+       cy="295.26926"
+       r="265.59393" />
+    <circle
+       style="fill:#214478;stroke-width:2.61452;stroke-linejoin:bevel"
+       id="circle1"
+       cx="1210.7523"
+       cy="848.71356"
+       r="347.20099" />
+    <circle
+       style="fill:#0000d4;stroke-width:2;stroke-linejoin:bevel"
+       id="circle2"
+       cx="1812.7211"
+       cy="230.07092"
+       r="265.59393" />
+    <circle
+       style="fill:#5555ff;stroke-width:2;stroke-linejoin:bevel"
+       id="circle3"
+       cx="1111.3401"
+       cy="75.672005"
+       r="265.59393" />
+    <circle
+       style="fill:#3771c8;stroke-width:2;stroke-linejoin:bevel"
+       id="circle4"
+       cx="327.91214"
+       cy="1034.1842"
+       r="265.59393" />
+    <circle
+       style="fill:#0044aa;stroke-width:2.61452;stroke-linejoin:bevel"
+       id="circle6"
+       cx="-562.22516"
+       cy="332.99051"
+       r="347.20099"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#0000d4;stroke-width:2;stroke-linejoin:bevel"
+       id="circle7"
+       cx="-90.398148"
+       cy="1037.7388"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#5555ff;stroke-width:2;stroke-linejoin:bevel"
+       id="circle8"
+       cx="-555.4975"
+       cy="927.00708"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#3771c8;stroke-width:2;stroke-linejoin:bevel"
+       id="circle9"
+       cx="-125.68695"
+       cy="1862.1941"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#0000aa;stroke-width:2;stroke-linejoin:bevel"
+       id="circle5"
+       cx="93.140823"
+       cy="1635.4248"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#3771c8;stroke-width:2;stroke-linejoin:bevel"
+       id="circle10"
+       cx="645.43787"
+       cy="81.60704"
+       r="265.59393" />
+  </g>
+</svg>

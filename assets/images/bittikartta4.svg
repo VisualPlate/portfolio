@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="bittikartta3.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.33698058"
+     inkscape:cx="868.00255"
+     inkscape:cy="547.5093"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#00112b;fill-opacity:1;stroke-width:6.42943;stroke-linejoin:bevel"
+       id="rect1"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0"
+       ry="15.653292" />
+    <circle
+       style="fill:#2ca089;stroke-width:2;stroke-linejoin:bevel"
+       id="circle7"
+       cx="166.74101"
+       cy="1517.0994"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+    <circle
+       style="fill:#5555ff;stroke-width:2;stroke-linejoin:bevel"
+       id="circle8"
+       cx="-298.35834"
+       cy="1406.3677"
+       r="265.59393"
+       transform="rotate(-70.892572)" />
+  </g>
+</svg>
