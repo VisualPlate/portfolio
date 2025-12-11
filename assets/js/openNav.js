@@ -8,3 +8,10 @@ btn.addEventListener("click", () => {
         nav.style.display = "none";
     }
 })
+
+window.addEventListener("resize", function() {
+    let screenWidth = this.window.innerWidth;
+    if (screenWidth > 1200) {
+        nav.style.display = "none";
+    }
+})
