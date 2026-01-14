@@ -1,0 +1,19 @@
+:root{
+    --bg-body:#d2d2da;
+    --bg-nav:#d0d0d8;
+    --bg-nav-alt:#d6d6df;
+
+    --btn-bg:#7baa99;
+    --btn-bg-hover:#81a196;
+
+    --text-main:#5f5c5c;
+    --text-main-alt:#474141;
+    --text-secondary:#434144;
+
+    --gray:#88889267;
+    --gray-alt:#94949767;
+    --dark-gray:#37373a67;
+
+    --image-invert-ratio:0%;
+    --image-invert-ratio-h:20%;
+}
