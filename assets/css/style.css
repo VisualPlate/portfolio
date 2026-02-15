@@ -70,6 +70,7 @@ body{
 .margin-1 {
     width: calc(100% - 100px);
     margin-inline: 50px;
+<<<<<<< Updated upstream
 }
 .mob-view-1 {
     display: flex;
@@ -198,6 +199,140 @@ body{
     background: linear-gradient(to bottom, var(--bg-nav), var(--bg-nav-alt));
     border-radius: 24px;
 }
+=======
+}
+.mob-view-1 {
+    display: flex;
+    flex-direction: row;
+}
+.max1600 {max-width: 1600px; width: 100%;}
+.max1400 {max-width: 1400px; width: 100%;}
+.max1200 {max-width: 1200px; width: 100%;}
+.row,.col {display: flex;}
+.row {flex-direction: row;}
+.col {flex-direction: column;}
+
+.jcsb {justify-content: space-between;}
+.jcc {justify-content: center;}
+
+.aic {align-items: center;}
+.ail {align-items: left;}
+.air {align-items: right;}
+
+/*align self*/
+.asc,.asl,.asr {display: flex;}
+.asc {align-self: center;}
+.asl {align-self: left;}
+.asr {align-self: right;}
+
+/*justify self*/
+.jsc,.jsl,.jsr {display: flex;}
+.jsc {justify-self: center;}
+.jsl {justify-self: left;}
+.jsr {justify-self: right;}
+
+.w100 {width: 100%;}
+.w75 {width: 75%;}
+.w50 {width: 50%;}
+
+
+.w800p {width: 800px;}
+.w600p {width: 600px;}
+.w500p {width: 500px;}
+.w400p {width: 400px;}
+.w300p {width: 300px;}
+.w200p {width: 200px;}
+.w100p {width: 100px;}
+.w32p {width: 32px;}
+
+.h100 {height: 100%;}
+.h50 {height: 50%;}
+
+.vh100 {height: 100vh;}
+
+.h800p {height: 800px;}
+.h600p {height: 600px;}
+.h500p {height: 500px;}
+.h400p {height: 400px;}
+.h300p {height: 300px;}
+.h32p {height: 32px;}
+.m-h600p {min-height: 600px;}
+.m-h350p {min-height: 350px;}
+
+.g5 {gap: 5px;}
+.g10 {gap: 10px;}
+.g15 {gap: 15px;}
+.g25 {gap: 25px;}
+.g50 {gap: 50px;}
+
+.fs48 {font-size: 48px;}
+.fs32 {font-size: 32px;}
+.fs36 {font-size: 36px;}
+.fs42 {font-size: 42px;}
+.fs28 {font-size: 28px;}
+.fs24 {font-size: 24px;}
+.fs18 {font-size: 18px;}
+.general-padding {padding: 15px;}
+
+#btnThemeChange{
+    width: 48px;
+    height: 48px;
+    filter: invert(var(--image-invert-ratio));
+}
+
+#btnThemeChange:hover{
+    transition: all 0.17s ease-in-out;
+    filter: invert(var(--image-invert-ratio-h));
+}
+
+.nav-link {
+    color: var(--text-main);
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: var(--text-main-alt);
+    text-decoration: underline;
+}
+.main-btn {
+    color: var(--text-main);
+    background-color: var(--btn-bg);
+    padding: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.main-btn:hover {
+    color: var(--text-main-alt);
+    background-color: var(--btn-bg-hover);
+}
+
+.secondary-btn {
+    color: var(--text-main);
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 100;
+    text-decoration: none;
+    border: var(--text-main) dashed 1px;
+}
+.secondary-btn:hover {
+    color: var(--text-main-alt);
+    border: var(--text-secondary) dashed 1px;
+}
+
+.hero-header {
+    font-size: 64px;
+}
+.hero-paragraph {
+    font-size: 24px;
+    font-weight: 100;
+}
+.container {
+    border: var(--gray) 1px solid;
+    padding-top: 15px;
+    background: linear-gradient(to bottom, var(--bg-nav), var(--bg-nav-alt));
+    border-radius: 24px;
+}
+>>>>>>> Stashed changes
 .container-no-p {
     border: var(--gray) 1px solid;
     background: linear-gradient(to bottom, var(--bg-nav), var(--bg-nav-alt));
