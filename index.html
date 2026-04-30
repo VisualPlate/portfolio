@@ -148,6 +148,52 @@
         </div>
     </div>
     <br><br>
+    <div class="row jcc">
+        <div class="max1600 row jcsb g50 general-padding">
+            <div class="m-h350p col container w100 h100 jcsb general-padding">
+                <div class="col">
+                    <form id="contact-form" class="w100">
+                        <input type="hidden" name="time" id="dateData" value="">
+                        <label>Name</label><br>
+                        <input type="text" name="name" required class="w100">
+                        <label>Email</label><br>
+                        <input type="email" name="email" required class="w100">
+                        <label>Subject</label><br>
+                        <input type="text" name="title" required class="w100">
+                        <label>Message</label><br>
+                        <textarea name="message" required class="w100"></textarea>
+                        <br><br>
+                        <input type="submit" value="Send" class="w100 container col jcc aic" style="color:#fff">
+                    </form> 
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    <script type="text/javascript">
+                        (function() {
+                            emailjs.init({
+                              publicKey: "Tw5zwqrTEbkOiDViO",
+                            });
+                        })();
+                    </script>
+                    <script type="text/javascript">
+                        window.onload = function() {
+                            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                                event.preventDefault();
+                                emailjs.sendForm('service_gihnpk8', 'template_mrg7cyg', this)
+                                    .then(() => {
+                                        console.log('SUCCESS!');
+                                    }, (error) => {
+                                        console.log('FAILED...', error);
+                                    });
+                            });
+                        }
+                    const curDate = new Date();
+                    const dateData = document.getElementById("dateData");
+                    dateData.value = curDate;
+                </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
     <div class="row jcc top-gray">
         <div class="max1600 col jcsb general-padding">
             <div class="row jcsb mob-view-2">
