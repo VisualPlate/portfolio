@@ -251,6 +251,20 @@ body{
 .ico-invert:hover {
     filter: invert(75%);
 }
+
+input, textarea {
+border:1px solid var(--gray);
+color:var(--text-main);
+background-color:transparent;
+resize:none;
+min-height:40px;
+overflow:vertical;
+height:100%´;
+font-size:26px;
+}
+textarea {
+min-height:80px;
+}
 @media (min-width:1000px) {
     .tab-show {
         display: none;
